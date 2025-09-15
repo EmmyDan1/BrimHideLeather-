@@ -120,11 +120,7 @@ export default function Contact() {
                     info@brimhideleather.com
                   </a>
                 </p>
-                {/* <p>
-                  <a href="tel:+18005551234" className="text-deep-brown hover:text-saddle-tan">
-                    (800) 555-1234
-                  </a>
-                </p> */}
+ 
               </div>
               
               <div>
