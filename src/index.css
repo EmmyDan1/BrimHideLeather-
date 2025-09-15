@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-charcoal;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-bold;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+  
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+  
+  .section {
+    @apply py-12 md:py-16 lg:py-24;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 font-medium rounded-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-deep-brown text-bone hover:bg-opacity-90 focus:ring-deep-brown;
+  }
+  
+  .btn-secondary {
+    @apply bg-saddle-tan text-charcoal hover:bg-opacity-90 focus:ring-saddle-tan;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-deep-brown text-deep-brown hover:bg-deep-brown hover:text-bone focus:ring-deep-brown;
+  }
+  
+  .input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-deep-brown focus:border-transparent;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-soft overflow-hidden;
+  }
+  
+  .stitched-border {
+    background-image: linear-gradient(to right, #4b2e2b 50%, transparent 50%);
+    background-position: top;
+    background-size: 20px 1px;
+    background-repeat: repeat-x;
+  }
+}
