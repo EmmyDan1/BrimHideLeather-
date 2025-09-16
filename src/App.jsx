@@ -7,7 +7,6 @@ export default function App() {
   const location = useLocation();
   const { mobileNavOpen } = useUIStore();
   
-  // Close mobile nav when route changes
   useEffect(() => {
     if (mobileNavOpen) {
       useUIStore.getState().closeMobileNav();

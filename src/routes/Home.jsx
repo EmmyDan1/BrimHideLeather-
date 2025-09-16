@@ -116,7 +116,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <img 
-                src="/images/brand/workshop.jpg" 
+                src="/products/workshopimg3.png" 
                 alt="Leather workshop" 
                 className="rounded-2xl shadow-soft w-full h-auto"
               />
