@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div className="relative h-screen min-h-[600px] flex items-center">
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover  bg-no-repeat"
         style={{ backgroundImage: 'url(/images/HeroImg2.png)' }}
       >
 

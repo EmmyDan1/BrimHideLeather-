@@ -11,7 +11,6 @@ export default function Header({ transparent = false }) {
   const itemCount = items.reduce((total, item) => total + item.quantity, 0);
   const { mobileNavOpen, toggleMobileNav } = useUIStore();
 
-  // Handle scroll event to change header background
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -24,11 +23,11 @@ export default function Header({ transparent = false }) {
     };
   }, []);
 
-  // Determine header classes based on transparent prop and scroll state
+ 
   const headerClasses =
     transparent && !isScrolled
       ? "bg-transparent text-bone"
-      : "bg-white text-charcoal shadow-sm";
+      : "bg-amber-500 text-charcoal shadow-sm";
 
   return (
     <header
