@@ -35,7 +35,7 @@ export default function Header({ transparent = false }) {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
+         
           <Link to="/" className="flex items-center space-x-2">
             <img
               src="/favicon.svg" 
@@ -45,7 +45,6 @@ export default function Header({ transparent = false }) {
             <span className="text-2xl font-serif font-bold">Brimhide</span>
           </Link>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <NavLink
               to="/shop"
@@ -109,7 +108,7 @@ export default function Header({ transparent = false }) {
             </NavLink> */}
           </nav>
 
-          {/* Cart and Mobile Menu Buttons */}
+
           <div className="flex items-center">
             {/* Cart Button */}
             <button
