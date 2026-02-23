@@ -31,7 +31,7 @@ export default function Header({ transparent = false }) {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${headerClasses}`}
+      className={`fixed top-0 left-0 right-0 z-40 rounded-b-2xl transition-all duration-300 ${headerClasses}`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
