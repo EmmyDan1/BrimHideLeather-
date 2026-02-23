@@ -6,11 +6,11 @@ export default function Hero() {
     <div className="relative h-screen min-h-[600px] flex items-center">
       <div 
         className="absolute inset-0 bg-cover  bg-no-repeat"
-        style={{ backgroundImage: 'url(/images/HeroImg2.png)' }}
+        style={{ backgroundImage: 'url(/images/HeroImg2.webp)' }}
       >
 
       </div>
-      <div className="container relative z-10 px-4 mx-auto text-center text-white">
+      <div className="container relative z-10 px-4 mx-auto text-center text-amber-100">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold mb-6">
           Handcrafted Leather Goods,<br />Made to Last
         </h1>
